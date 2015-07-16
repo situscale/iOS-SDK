@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E7837991B45C47C0015E2FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7837981B45C47C0015E2FA /* main.m */; };
+		4E78379C1B45C47C0015E2FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E78379B1B45C47C0015E2FA /* AppDelegate.m */; };
+		4E78379F1B45C47C0015E2FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E78379E1B45C47C0015E2FA /* ViewController.m */; };
+		4E7837A21B45C47C0015E2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7837A01B45C47C0015E2FA /* Main.storyboard */; };
+		4E7837A41B45C47C0015E2FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7837A31B45C47C0015E2FA /* Images.xcassets */; };
+		4E7837A71B45C47C0015E2FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E7837A51B45C47C0015E2FA /* LaunchScreen.xib */; };
+		4E7837D41B45FAE70015E2FA /* libSITUBluetooth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7837D31B45FAE70015E2FA /* libSITUBluetooth.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E7837931B45C47C0015E2FA /* SITUBluetoothSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITUBluetoothSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7837971B45C47C0015E2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7837981B45C47C0015E2FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E78379A1B45C47C0015E2FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E78379B1B45C47C0015E2FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E78379D1B45C47C0015E2FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E78379E1B45C47C0015E2FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E7837A11B45C47C0015E2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E7837A31B45C47C0015E2FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E7837A61B45C47C0015E2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E7837D11B45FAE70015E2FA /* SITUBluetoothScaleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITUBluetoothScaleController.h; sourceTree = "<group>"; };
+		4E7837D31B45FAE70015E2FA /* libSITUBluetooth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSITUBluetooth.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7837901B45C47C0015E2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7837D41B45FAE70015E2FA /* libSITUBluetooth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E78378A1B45C47C0015E2FA = {
+			isa = PBXGroup;
+			children = (
+				4E7837CF1B45FAE70015E2FA /* SITUBluetooth */,
+				4E7837951B45C47C0015E2FA /* SITUBluetoothSample */,
+				4E7837941B45C47C0015E2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7837941B45C47C0015E2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7837931B45C47C0015E2FA /* SITUBluetoothSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7837951B45C47C0015E2FA /* SITUBluetoothSample */ = {
+			isa = PBXGroup;
+			children = (
+				4E78379A1B45C47C0015E2FA /* AppDelegate.h */,
+				4E78379B1B45C47C0015E2FA /* AppDelegate.m */,
+				4E78379D1B45C47C0015E2FA /* ViewController.h */,
+				4E78379E1B45C47C0015E2FA /* ViewController.m */,
+				4E7837A01B45C47C0015E2FA /* Main.storyboard */,
+				4E7837A31B45C47C0015E2FA /* Images.xcassets */,
+				4E7837A51B45C47C0015E2FA /* LaunchScreen.xib */,
+				4E7837961B45C47C0015E2FA /* Supporting Files */,
+			);
+			path = SITUBluetoothSample;
+			sourceTree = "<group>";
+		};
+		4E7837961B45C47C0015E2FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E7837971B45C47C0015E2FA /* Info.plist */,
+				4E7837981B45C47C0015E2FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E7837CF1B45FAE70015E2FA /* SITUBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				4E7837D01B45FAE70015E2FA /* inc */,
+				4E7837D21B45FAE70015E2FA /* lib */,
+			);
+			path = SITUBluetooth;
+			sourceTree = "<group>";
+		};
+		4E7837D01B45FAE70015E2FA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				4E7837D11B45FAE70015E2FA /* SITUBluetoothScaleController.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		4E7837D21B45FAE70015E2FA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4E7837D31B45FAE70015E2FA /* libSITUBluetooth.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7837921B45C47C0015E2FA /* SITUBluetoothSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7837B61B45C47C0015E2FA /* Build configuration list for PBXNativeTarget "SITUBluetoothSample" */;
+			buildPhases = (
+				4E78378F1B45C47C0015E2FA /* Sources */,
+				4E7837901B45C47C0015E2FA /* Frameworks */,
+				4E7837911B45C47C0015E2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SITUBluetoothSample;
+			productName = SITUBluetoothSample;
+			productReference = 4E7837931B45C47C0015E2FA /* SITUBluetoothSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E78378B1B45C47C0015E2FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SITU;
+				TargetAttributes = {
+					4E7837921B45C47C0015E2FA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E78378E1B45C47C0015E2FA /* Build configuration list for PBXProject "SITUBluetoothSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E78378A1B45C47C0015E2FA;
+			productRefGroup = 4E7837941B45C47C0015E2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7837921B45C47C0015E2FA /* SITUBluetoothSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7837911B45C47C0015E2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7837A21B45C47C0015E2FA /* Main.storyboard in Resources */,
+				4E7837A71B45C47C0015E2FA /* LaunchScreen.xib in Resources */,
+				4E7837A41B45C47C0015E2FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E78378F1B45C47C0015E2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E78379F1B45C47C0015E2FA /* ViewController.m in Sources */,
+				4E78379C1B45C47C0015E2FA /* AppDelegate.m in Sources */,
+				4E7837991B45C47C0015E2FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E7837A01B45C47C0015E2FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7837A11B45C47C0015E2FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E7837A51B45C47C0015E2FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7837A61B45C47C0015E2FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E7837B41B45C47C0015E2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7837B51B45C47C0015E2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7837B71B45C47C0015E2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SITUBluetoothSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SITUBluetooth/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E7837B81B45C47C0015E2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SITUBluetoothSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SITUBluetooth/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E78378E1B45C47C0015E2FA /* Build configuration list for PBXProject "SITUBluetoothSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7837B41B45C47C0015E2FA /* Debug */,
+				4E7837B51B45C47C0015E2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7837B61B45C47C0015E2FA /* Build configuration list for PBXNativeTarget "SITUBluetoothSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7837B71B45C47C0015E2FA /* Debug */,
+				4E7837B81B45C47C0015E2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E78378B1B45C47C0015E2FA /* Project object */;
+}

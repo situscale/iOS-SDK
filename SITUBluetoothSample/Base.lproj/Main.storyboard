@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7i-Y5-dvn">
+                                <rect key="frame" x="126" y="437" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHV-jB-jpy">
+                                <rect key="frame" x="99" y="216" width="123" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="xTQ-Je-Y5O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Scale Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ2-bI-0Rj">
+                                <rect key="frame" x="16" y="437" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g7i-Y5-dvn" firstAttribute="leading" secondItem="VZ2-bI-0Rj" secondAttribute="trailing" constant="8" id="31W-Mb-bV2"/>
+                            <constraint firstItem="VZ2-bI-0Rj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Ah9-4c-neG"/>
+                            <constraint firstAttribute="centerY" secondItem="DHV-jB-jpy" secondAttribute="centerY" id="Apw-nD-vw5"/>
+                            <constraint firstAttribute="centerX" secondItem="DHV-jB-jpy" secondAttribute="centerX" constant="-0.5" id="BJs-ZX-hUS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g7i-Y5-dvn" secondAttribute="bottom" constant="22" id="E3O-8n-DiR"/>
+                            <constraint firstItem="g7i-Y5-dvn" firstAttribute="leading" secondItem="VZ2-bI-0Rj" secondAttribute="trailing" constant="8" id="GK3-Hq-USK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VZ2-bI-0Rj" secondAttribute="bottom" constant="22" id="Uvc-bU-hD4"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="statusLabel" destination="g7i-Y5-dvn" id="MuN-W1-3pE"/>
+                        <outlet property="weight" destination="DHV-jB-jpy" id="wFZ-OB-d5w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313.5" y="427.5"/>
+        </scene>
+    </scenes>
+</document>
