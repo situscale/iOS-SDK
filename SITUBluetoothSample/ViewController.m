@@ -43,6 +43,7 @@
 {
     [self.statusLabel setText:@"Disconnected"];
     [self.statusLabel setTextColor:[UIColor grayColor]];
+    [self.weight setText:@"N/A"];
 }
 
 - (void)scaleUnsupported
@@ -52,7 +53,7 @@
 
 - (void)scaleDidUpdateValue:(int)value
 {
-    [self.weight setText:[NSString stringWithFormat:@"%d", value]];
+    [self.weight setText:[NSString stringWithFormat:@"%i g", value]];
 }
 
 @end
