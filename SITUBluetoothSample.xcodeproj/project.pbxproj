@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6977531B7EA4510072D46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6977521B7EA4510072D46C /* AppDelegate.m */; };
+		4E6977551B7EA4510072D46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6977541B7EA4510072D46C /* main.m */; };
+		4E6977581B7EA4510072D46C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6977571B7EA4510072D46C /* ViewController.m */; };
+		4E69775A1B7EA4510072D46C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6977591B7EA4510072D46C /* Images.xcassets */; };
+		4E69775D1B7EA4510072D46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E69775B1B7EA4510072D46C /* Main.storyboard */; };
+		4E6977921B7EA6E80072D46C /* libSITUBluetoothOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6977911B7EA6E80072D46C /* libSITUBluetoothOSX.a */; };
 		4E7837991B45C47C0015E2FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7837981B45C47C0015E2FA /* main.m */; };
 		4E78379C1B45C47C0015E2FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E78379B1B45C47C0015E2FA /* AppDelegate.m */; };
 		4E78379F1B45C47C0015E2FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E78379E1B45C47C0015E2FA /* ViewController.m */; };
@@ -17,6 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E69774D1B7EA4510072D46C /* SITUBluetoothSampleOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITUBluetoothSampleOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6977501B7EA4510072D46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6977511B7EA4510072D46C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E6977521B7EA4510072D46C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E6977541B7EA4510072D46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E6977561B7EA4510072D46C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E6977571B7EA4510072D46C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E6977591B7EA4510072D46C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E69775C1B7EA4510072D46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E6977911B7EA6E80072D46C /* libSITUBluetoothOSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSITUBluetoothOSX.a; sourceTree = "<group>"; };
 		4E7837931B45C47C0015E2FA /* SITUBluetoothSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITUBluetoothSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7837971B45C47C0015E2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E7837981B45C47C0015E2FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -32,6 +48,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E69774A1B7EA4510072D46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6977921B7EA6E80072D46C /* libSITUBluetoothOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E7837901B45C47C0015E2FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,11 +67,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E69774E1B7EA4510072D46C /* SITUBluetoothSampleOSX */ = {
+			isa = PBXGroup;
+			children = (
+				4E6977511B7EA4510072D46C /* AppDelegate.h */,
+				4E6977521B7EA4510072D46C /* AppDelegate.m */,
+				4E6977561B7EA4510072D46C /* ViewController.h */,
+				4E6977571B7EA4510072D46C /* ViewController.m */,
+				4E6977591B7EA4510072D46C /* Images.xcassets */,
+				4E69775B1B7EA4510072D46C /* Main.storyboard */,
+				4E69774F1B7EA4510072D46C /* Supporting Files */,
+			);
+			path = SITUBluetoothSampleOSX;
+			sourceTree = "<group>";
+		};
+		4E69774F1B7EA4510072D46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E6977501B7EA4510072D46C /* Info.plist */,
+				4E6977541B7EA4510072D46C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4E78378A1B45C47C0015E2FA = {
 			isa = PBXGroup;
 			children = (
 				4E7837CF1B45FAE70015E2FA /* SITUBluetooth */,
 				4E7837951B45C47C0015E2FA /* SITUBluetoothSample */,
+				4E69774E1B7EA4510072D46C /* SITUBluetoothSampleOSX */,
 				4E7837941B45C47C0015E2FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4E7837931B45C47C0015E2FA /* SITUBluetoothSample.app */,
+				4E69774D1B7EA4510072D46C /* SITUBluetoothSampleOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				4E7837D31B45FAE70015E2FA /* libSITUBluetooth.a */,
+				4E6977911B7EA6E80072D46C /* libSITUBluetoothOSX.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -112,6 +162,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E69774C1B7EA4510072D46C /* SITUBluetoothSampleOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E69776A1B7EA4520072D46C /* Build configuration list for PBXNativeTarget "SITUBluetoothSampleOSX" */;
+			buildPhases = (
+				4E6977491B7EA4510072D46C /* Sources */,
+				4E69774A1B7EA4510072D46C /* Frameworks */,
+				4E69774B1B7EA4510072D46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SITUBluetoothSampleOSX;
+			productName = SITUBluetoothSampleOSX;
+			productReference = 4E69774D1B7EA4510072D46C /* SITUBluetoothSampleOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
 		4E7837921B45C47C0015E2FA /* SITUBluetoothSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E7837B61B45C47C0015E2FA /* Build configuration list for PBXNativeTarget "SITUBluetoothSample" */;
@@ -138,6 +205,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = SITU;
 				TargetAttributes = {
+					4E69774C1B7EA4510072D46C = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					4E7837921B45C47C0015E2FA = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -157,11 +227,21 @@
 			projectRoot = "";
 			targets = (
 				4E7837921B45C47C0015E2FA /* SITUBluetoothSample */,
+				4E69774C1B7EA4510072D46C /* SITUBluetoothSampleOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4E69774B1B7EA4510072D46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E69775A1B7EA4510072D46C /* Images.xcassets in Resources */,
+				4E69775D1B7EA4510072D46C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E7837911B45C47C0015E2FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,6 +255,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E6977491B7EA4510072D46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6977581B7EA4510072D46C /* ViewController.m in Sources */,
+				4E6977551B7EA4510072D46C /* main.m in Sources */,
+				4E6977531B7EA4510072D46C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E78378F1B45C47C0015E2FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,6 +278,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4E69775B1B7EA4510072D46C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E69775C1B7EA4510072D46C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		4E7837A01B45C47C0015E2FA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -207,6 +305,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4E69776B1B7EA4520072D46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SITUBluetoothSampleOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SITUBluetooth/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E69776C1B7EA4520072D46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = SITUBluetoothSampleOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SITUBluetooth/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		4E7837B41B45C47C0015E2FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,6 +465,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E69776A1B7EA4520072D46C /* Build configuration list for PBXNativeTarget "SITUBluetoothSampleOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E69776B1B7EA4520072D46C /* Debug */,
+				4E69776C1B7EA4520072D46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4E78378E1B45C47C0015E2FA /* Build configuration list for PBXProject "SITUBluetoothSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
