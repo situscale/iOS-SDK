@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "SITUBluetooth-iOS-SDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "SITU scale integration for iOS."
   s.homepage     = "https://situscale.com/"
 
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = 'Michael Grothaus Limited'
   s.source       = { :git => "https://github.com/situscale/iOS-SDK.git",
-                     :tag => "v1.0.1" }
+                     :tag => "v1.0.2" }
   s.platform     = :ios
   s.requires_arc = true
   s.source_files = 'SITUBluetooth/inc/SITUBluetoothScaleController.h'
