@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Sra-mL-Cgb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Bfc-mV-CbM">
+            <objects>
+                <viewController id="Sra-mL-Cgb" customClass="ViewController" customModule="SITUBluetoothSwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zQd-S1-9Oj"/>
+                        <viewControllerLayoutGuide type="bottom" id="wgU-bl-Irf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lq2-aG-F5O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ko-cI-Duc">
+                                <rect key="frame" x="124" y="437" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0l-jz-T5m">
+                                <rect key="frame" x="99" y="216" width="123" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="TkM-GC-2tZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Scale Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-lN-j6P">
+                                <rect key="frame" x="16" y="437" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mhr-lN-j6P" firstAttribute="leading" secondItem="Lq2-aG-F5O" secondAttribute="leading" constant="16" id="7Ei-cK-Xu5"/>
+                            <constraint firstAttribute="centerY" secondItem="o0l-jz-T5m" secondAttribute="centerY" id="IIw-WU-bN0"/>
+                            <constraint firstItem="wgU-bl-Irf" firstAttribute="top" secondItem="mhr-lN-j6P" secondAttribute="bottom" constant="22" id="P8Y-AC-L1N"/>
+                            <constraint firstItem="6Ko-cI-Duc" firstAttribute="leading" secondItem="mhr-lN-j6P" secondAttribute="trailing" constant="8" id="Pw0-1R-8s2"/>
+                            <constraint firstAttribute="centerX" secondItem="o0l-jz-T5m" secondAttribute="centerX" constant="-0.5" id="aTW-DK-QeP"/>
+                            <constraint firstItem="6Ko-cI-Duc" firstAttribute="leading" secondItem="mhr-lN-j6P" secondAttribute="trailing" constant="8" id="f72-1R-Q3m"/>
+                            <constraint firstItem="wgU-bl-Irf" firstAttribute="top" secondItem="6Ko-cI-Duc" secondAttribute="bottom" constant="22" id="zMq-7v-snR"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="statusLabel" destination="6Ko-cI-Duc" id="LXq-Ev-1kE"/>
+                        <outlet property="weight" destination="o0l-jz-T5m" id="Fw3-qb-nfS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8O-jp-Kgv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313.5" y="427.5"/>
+        </scene>
+    </scenes>
+</document>

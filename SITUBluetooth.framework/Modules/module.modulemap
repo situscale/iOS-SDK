@@ -1,0 +1,6 @@
+framework module SITUBluetooth {
+  umbrella header "SITUBluetooth.h"
+
+  export *
+  module * { export * }
+}
