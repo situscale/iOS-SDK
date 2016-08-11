@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     spec.platform = :ios, '8.1'
     spec.requires_arc = true
     
-    spec.source_files = 'SITUBluetooth.framework/Headers/SITUBluetooth.h'
+    spec.source_files = 'SITUBluetooth.framework/Headers/*'
 	spec.preserve_paths = 'SITUBluetooth.framework/*'
 	spec.vendored_frameworks = 'SITUBluetooth.framework'
     spec.frameworks   = 'Foundation', 'CoreBluetooth'
